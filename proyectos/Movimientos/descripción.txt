@@ -1,0 +1,4 @@
+Este proyecto es una prueba de rendimiento que integra el control de movimiento y la respuesta visual. 
+El robot ejecuta una rutina de desplazamiento en todas las direcciones (adelante, atrás, izquierda y derecha) para validar la precisión de sus motores, regresando siempre a su punto de origen. 
+Mientras se desplaza, la pantalla de píxeles LED se activa en una secuencia de colores cambiantes, 
+demostrando la capacidad del sistema para procesar trayectorias físicas y efectos lumínicos de forma simultánea.

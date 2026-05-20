@@ -1,0 +1,4 @@
+Este proyecto explora la intersección entre el arte digital y la programación de hardware. A través de una matriz de píxeles LED, 
+se proyecta un rostro minimalista que actúa como lienzo para una transición continua de color. 
+Utilizando un algoritmo de degradado cíclico, la pieza recorre todo el espectro cromático, transformando una estructura estática en una experiencia visual dinámica y vibrante. 
+Es una demostración de color, luz y fluidez tecnológica.

@@ -1,0 +1,4 @@
+Este proyecto es una exploración de la luz y el ritmo visual. 
+A través de una pantalla de píxeles LED,  se genera un efecto de parpadeo estroboscópico que alterna entre una amplia gama de colores vibrantes. 
+La secuencia intermitente está diseñada para transformar el espacio mediante ráfagas de luz, 
+demostrando la velocidad de respuesta de los controladores LED y creando una atmósfera de alta energía y dinamismo constante.
