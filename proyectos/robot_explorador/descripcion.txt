@@ -1,5 +1,0 @@
-Robot explorador es un proyecto inicial para probar movimientos básicos del robot.
-
-El proyecto permite observar cómo el robot avanza, se detiene y realiza una pequeña secuencia de movimiento.
-
-Este ejemplo puede utilizarse como base para actividades de exploración, recorridos, obstáculos o desafíos de navegación.

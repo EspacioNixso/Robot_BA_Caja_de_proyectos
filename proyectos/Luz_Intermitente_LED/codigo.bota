@@ -1,8 +1,0 @@
-# ROBOT_MODE: 0
-
-adelante 80 10
-pausa 500
-derecha 80 6
-pausa 500
-adelante 80 10
-parar
