@@ -1,0 +1,24 @@
+{
+    "formato": "ROBOT_BA_PROJECT",
+    "version": 1,
+    "metadata": {
+        "nombre": "Seguidor Color",
+        "creado": "2026-10-20T08:25:02",
+        "modificado": "2026-10-20T08:25:02"
+    },
+    "configuracion": {
+        "modo_robot": 15,
+        "motor_type": 0,
+        "servo_4m": 0,
+        "servo_2m": 1,
+        "pixel_led": 1,
+        "ultrasonido": 1,
+        "color": 1,
+        "perfil": "completo"
+    },
+    "programa": {
+        "txt": "color = 7\nrojo = 0\nverde = 1\nazul = 2\nrepetir 5{\n    color = leerColor \n}\nloop{\n    pixel 0 0 0 \n    color = leerColor \n\n    si color == verde {\n        pixel 0 100 0\n        adelante 100 0.9\n    }\n\n    si color == rojo{\n        pixel 100 0 0    \n        izquierda 100 0.55\n        pausa 100\n        adelante 100 0.9    \n    }\n\n    si color == azul {\n        pixel 0 0 100\n        derecha 100 0.55\n        pausa 100\n        adelante 100 0.9    \n    }\n    \n    pixel 0 0 0 \n    \n    repetir 5{\n        color = leerColor \n        pausa 100\n    }\n}",
+        "blockly_xml": null
+    },
+    "fuente_principal": "txt"
+}

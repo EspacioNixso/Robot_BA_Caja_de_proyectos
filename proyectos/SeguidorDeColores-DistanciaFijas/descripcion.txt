@@ -1,0 +1,24 @@
+Descripción del Proyecto: Robot Seguidor de Colores con distancias fijas.
+
+Objetivo:
+Desarrollar un robot móvil con ruedas que se desplaza y es guiado mediante papeles glacé tradicionales colocados sobre el suelo. Al detectar el papel, el robot ejecuta un movimiento específico según el código de color:
+
+Verde: Avanza en línea recta.
+
+Rojo: Gira a la izquierda y retoma la marcha hacia adelante.
+
+Azul: Gira a la derecha y retoma la marcha hacia adelante.
+
+Configuración del entorno:
+
+Disposición: Los papeles se colocan a una distancia fija equivalente al tamaño de un papel (10 cm). Es decir, se ubica un papel, se dejan 10 cm de piso libre y luego se coloca el siguiente.
+
+Superficie: El suelo debe ser liso y de un color neutral (que no sea verde, rojo ni azul) para evitar interferencias o lecturas erróneas del sensor.
+
+Hardware y componentes:
+
+- Motores de paso para el desplazamiento y control preciso del movimiento.
+
+- Sensor de color montado en el chasis.
+
+- Pantalla de LEDs (opcional) para efectos visuales o indicadores de estado.
