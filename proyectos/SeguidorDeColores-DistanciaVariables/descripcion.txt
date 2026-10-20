@@ -1,0 +1,26 @@
+Descripción del Proyecto: Robot Seguidor de Colores con distancias Variables.
+
+Objetivo:
+Desarrollar un robot móvil con ruedas guiado por marcas de papel glacé de colores dispuestas en el suelo. El robot avanza continuamente en línea recta hasta detectar un color y ejecutar la acción correspondiente:
+
+Verde: Continúa o retoma la marcha hacia adelante.
+
+Rojo: Gira a la izquierda y sigue avanzando.
+
+Azul: Gira a la derecha y sigue avanzando.
+
+Naranja: Detiene completamente la marcha (Stop).
+
+Configuración del entorno:
+
+Disposición: Los papeles glacé pueden ubicarse a cualquier distancia entre sí. El robot continuará desplazándose en línea recta hasta encontrar la siguiente indicación.
+
+Superficie: El suelo debe ser liso y de un color neutral (evitando tonos verdes, rojos, azules o naranjas) para garantizar una correcta lectura por parte del sensor.
+
+Hardware y componentes:
+
+Motores de paso para una navegación y giros precisos.
+
+Sensor de color montado en el chasis.
+
+Pantalla de LEDs (opcional) para indicar el estado del robot o la instrucción en curso.
